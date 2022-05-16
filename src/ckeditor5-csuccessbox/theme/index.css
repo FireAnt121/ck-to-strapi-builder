@@ -1,0 +1,33 @@
+        /* success box css start */
+        .avr-success-box {
+            padding: 1.3rem 1rem;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+            border: 1px solid #e0e0e0;
+            box-sizing: border-box;
+            border-radius: 3px;
+            background: rgb(227, 252, 239) !important;
+        }
+
+        .avr-success-box:hover > .avr-success-box-text {
+            background: white;
+        }
+
+        .avr-success-box-text {
+            font-size: 1.125rem;
+            font-style: italic;
+            margin-left: 32px;
+        }
+
+        .avr-successbox-icon {
+            float: left;
+            width: 20px;
+            color: rgb(0, 135, 90);
+        }
+
+        .avr-successbox-title {
+            padding-top: 2px !important;
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }

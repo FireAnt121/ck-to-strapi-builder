@@ -1,0 +1,28 @@
+.avr-info-box {
+    padding: 1.3rem 1rem !important;
+    margin-bottom: 2rem !important;
+    margin-top: 2rem !important;
+    border: 1px solid #e0e0e0 !important;
+    box-sizing: border-box !important;
+    border-radius: 3px !important;
+    background: #caefff !important;
+}
+
+.avr-info-box-text {
+    font-size: 1.125rem !important;
+    font-style: italic !important;
+    margin-left: 32px !important;
+}
+
+.avr-infobox-icon {
+    float: left !important;
+    width: 20px !important;
+    margin: 0.2rem 0.7rem 0 0 !important;
+}
+
+.avr-infobox-title {
+    padding-top: 2px !important;
+    font-size: 1.125rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 10px !important;
+}

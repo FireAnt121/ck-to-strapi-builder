@@ -1,0 +1,33 @@
+        /*error box css start*/
+        .avr-error-box {
+            padding: 1.3rem 1rem;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+            border: 1px solid #e0e0e0;
+            box-sizing: border-box;
+            border-radius: 3px;
+            background: rgb(255, 235, 230) !important;
+        }
+
+        .avr-error-box:hover > .avr-error-box-text {
+            background: white;
+        }
+
+        .avr-error-box-text {
+            font-size: 1.125rem;
+            font-style: italic;
+            margin-left: 32px;
+        }
+
+        .avr-errorbox-icon {
+            float: left;
+            width: 20px;
+            color: rgb(222, 53, 11);
+        }
+
+        .avr-errorbox-title {
+            padding-top: 2px !important;
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }

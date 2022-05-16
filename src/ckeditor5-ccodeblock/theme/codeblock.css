@@ -1,0 +1,51 @@
+/*code block css start*/
+code {
+    position: relative !important;
+    width: 100% !important;
+    display: inline-block !important;
+}
+code, kbd, pre, samp {
+    font-family: monospace, monospace !important;
+    font-size: 1em;
+}
+.avr-code{
+    position: relative !important;
+    background: #f9fbfc !important;
+    border-radius: 3px !important;
+    /*overflow-x: auto;*/
+    padding: 1.25rem !important;
+    font-size: 1rem !important;
+    width: 100% !important;
+    display: inline-block !important;
+    color: #03051e !important;
+    white-space: nowrap !important;
+    line-height: 1.4rem !important;
+}
+.avr-code-button{
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    width: 1.875rem !important;
+    height: 1.875rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: #ffffff !important;
+    border: 1px solid #2868f3 !important;
+    border-radius: 3px !important;
+    padding: 0 !important;
+    cursor: pointer !important;
+}
+.avr-code-copied{
+    position: absolute !important;
+    font-size: 10px !important;
+    background: rgb(65,88,208) !important;
+    padding: 5px 12px !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    border-radius: 15px !important;
+    transform: translateY(-40px) !important;
+    display: block !important;
+    visibility: hidden !important;
+    transition: all 3s ease-in-out !important;
+}

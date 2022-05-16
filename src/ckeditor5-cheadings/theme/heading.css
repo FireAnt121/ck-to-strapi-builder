@@ -1,0 +1,33 @@
+/*
+ * Copyright (c) 2003-2022, CKSource Holding sp. z o.o. All rights reserved.
+ * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+ */
+
+ .ck.fire_heading1 {
+    font-size: 2.25rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+    line-height: 2.7rem !important;
+}
+
+.ck.fire_heading2 {
+	font-size: 1.875rem !important;
+    font-weight: 700 !important;
+    line-height: 2.7rem !important;
+}
+
+.ck.fire_heading3 {
+	font-weight: bold !important;
+    line-height: 1.575rem !important; 
+    font-size: 1.75rem !important;
+}
+
+.ck p {
+	font-weight: 400 !important;
+    line-height: 1.575rem !important;
+    font-size: 1.125rem !important;
+}
+
+/* .ck[class*="ck-heading_heading"] {
+	font-weight: bold;
+} */
